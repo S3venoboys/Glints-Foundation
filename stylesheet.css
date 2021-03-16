@@ -21,23 +21,32 @@ li {
     float: left;
     font-size: 36px;
     padding: 23px 43px;
-    border: 1px solid white;
 }
 
-.header-list li{
+.header-list li {
     float: right;
     padding: 35px 40px;
-    border: 1px solid white;
+}
+
+.header-list li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .main {
     padding: 50px 50px;
-    border: 1px solid black;
+    height: 1600px;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 38px;
+}
 .container {
-    border: 1px solid black;
-    margin-bottom: 50px;
+    margin: 85px auto;
 }
 
 .container h2 {
@@ -51,16 +60,19 @@ li {
 
 .mid {
     text-align: center;
-    border: 1px solid black;
+}
+
+.mid h3 {
+    font-size: 30px;
 }
 
 .mid a {
     margin-top: 10px;
-    background-color: #fff;
+    background-color: #8D76CE;
     border: 1px solid #8D76CE;
     padding: 5px 24px;
     display: inline-block;
-    color: #8D76CE;
+    color: #fff;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
@@ -69,6 +81,64 @@ li {
 
 .agree:hover {
     opacity: 1;
-    background-color: red;
+    background-color: #fff;
+    color: #8D76CE;
 }
 
+.contents {
+    margin-top: 50px;
+}
+
+.contents h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.content-item {
+    width: 32%;
+    display: inline-block;
+    margin-right: 11px;
+    margin-top: 20px;
+}
+
+.forms h3{
+    text-align: center;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.form p {
+    padding-right: 345px;
+    font-size: 28px;
+}
+
+input,textarea {
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #8D76CE;
+    text-align: center;
+    border-radius: 25px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.form-submit {
+    width: 450px;
+    background-color: #8D76CE;
+    font-weight: bold;
+    color: #fff;
+}
