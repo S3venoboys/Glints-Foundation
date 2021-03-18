@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Emil</title>
+    <title>Final Project</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/a5f1bbb52f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header>
+        <label id="dark-change"></label>
+    </header>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
     <div class="header">
         <div class="header-logo">Miauw</div>
         <div class="header-list">
@@ -16,7 +27,7 @@
                 <li><a href="#" >Home</a></li>
             </ul>
         </div>    
-    </div>  
+    </div>
     
     <div class="main">
         <div class="container">
@@ -54,10 +65,7 @@
                     <p></p>
                     <input class="form-submit" type="submit" value="Send">
                 </div>
-
         </div>
-
-
 
     </div>
 
