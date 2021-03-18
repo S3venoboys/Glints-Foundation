@@ -186,6 +186,7 @@ textarea {
 .form-submit:hover {
     background-color: #fff;
     color: #8D76CE;
+    cursor: pointer;
 }
 
 .footer {
