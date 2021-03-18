@@ -25,7 +25,8 @@ li {
 
 .header-list li {
     float: right;
-    padding: 35px 40px;
+    padding: 30px 50px;
+    font-size: 20px;
 }
 
 .header-list li a {
@@ -39,11 +40,11 @@ li {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 50px;
 }
 .container {
     margin: 85px auto;
@@ -63,19 +64,20 @@ h2 {
 }
 
 .mid h3 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .mid a {
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #8D76CE;
     border: 1px solid #8D76CE;
     padding: 5px 24px;
     display: inline-block;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 30px;
 }
 
 
@@ -86,19 +88,19 @@ h2 {
 }
 
 .contents {
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 .contents h3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .content-item {
     width: 32%;
     display: inline-block;
     margin-right: 11px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .forms h3{
@@ -112,7 +114,7 @@ h2 {
 
 .form {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
@@ -123,7 +125,7 @@ h2 {
 
 input,textarea {
     width:400px;
-    margin-top:10px;
+    margin-top:5px;
     margin-bottom:30px;
     padding:20px;
     font-size:18px;
@@ -131,7 +133,9 @@ input,textarea {
     text-align: center;
     border-radius: 25px;
 }
-
+input {
+    height: 15px;
+}
 textarea {
     height: 150px;
 }
@@ -140,5 +144,34 @@ textarea {
     width: 450px;
     background-color: #8D76CE;
     font-weight: bold;
+    color: #fff;
+    height: 70px;
+    font-size: 30px;
+}
+
+.form-submit:hover {
+    background-color: #fff;
+    color: #8D76CE;
+}
+
+.footer {
+    background-color: #8D76CE;
+    height: 210px;
+    margin-top: 100px;
+    padding: 0 50px;
+}
+
+.footer-logo img {
+    display: block;
+    margin-top: 20px;
+    margin-left: 46%;
+    float: left;
+}
+
+.btn {
+    text-decoration: none;
+    float: left;
+    margin: 20px 120px;
+    font-size: 20px;
     color: #fff;
 }
