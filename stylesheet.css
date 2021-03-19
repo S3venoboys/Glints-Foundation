@@ -114,7 +114,6 @@ h2 {
     font-size: 30px;
 }
 
-
 .agree:hover {
     opacity: 1;
     background-color: #fff;
@@ -122,28 +121,23 @@ h2 {
 }
 
 .contents {
-    margin-top: 65px;
-}
-
-.contents h3 {
-    text-align: center;
-    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
 }
 
 .content-item {
-    width: 32%;
-    display: inline-block;
+    flex: auto;
     margin-right: 11px;
-    margin-top: 10px;
 }
 
-.forms h3{
-    text-align: center;
+.content-item img {
+    width: 100%;
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 80px;
+    text-align: center;
 }
 
 .form {
@@ -162,9 +156,7 @@ input,textarea {
     margin-top:5px;
     margin-bottom:30px;
     padding:20px;
-    font-size:18px;
     border:1px solid #8D76CE;
-    text-align: center;
     border-radius: 25px;
 }
 input {
@@ -191,22 +183,21 @@ textarea {
 
 .footer {
     background-color: #8D76CE;
-    height: 210px;
+    height: 200px;
     margin-top: 100px;
     padding: 0 50px;
 }
 
-.footer-logo img {
-    display: block;
-    margin-top: 20px;
-    margin-left: 46%;
-    float: left;
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    float: right;
+    padding: 20px 20px;
+    margin-right: 85px;
 }
 
-.btn {
-    text-decoration: none;
-    float: left;
-    margin: 20px 120px;
-    font-size: 20px;
-    color: #fff;
+.footer-logo img {
+    display: block;
+    margin: auto;
 }

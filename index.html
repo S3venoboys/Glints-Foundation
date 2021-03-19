@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
     <script src="https://kit.fontawesome.com/a5f1bbb52f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 <body>
+    
     <header>
         <label id="dark-change"></label>
     </header>
+
     <script>
         var content = document.getElementsByTagName('body')[0];
         var darkMode = document.getElementById('dark-change');
@@ -18,6 +23,7 @@
             content.classList.toggle('night');
         })
     </script>
+    
     <div class="header">
         <div class="header-logo">Miauw</div>
         <div class="header-list">
@@ -38,21 +44,21 @@
 
         <div class="mid">
             <h3>I really love my cats, do you want to see them?</h3>
-                <a class="agree" href="#">Yes, I am</a>
+                <a class="agree" href="#">Yes, I am</a>    
         </div>
 
-        <div class="contents">
-            <h3>My cats</h3>
-            <div class="content-item">
-                <img src="./image/cute-black-and-white-cat-1200x675 1.png">
+        <h3 class="section-title">My cats</h3> 
+            <div class="contents">
+                <div class="content-item">
+                    <img src="./image/cute-black-and-white-cat-1200x675 1.png">
+                </div>
+                <div class="content-item">
+                    <img src="./image/cute 1.png">
+                </div>
+                <div class="content-item">
+                    <img src="./image/images 1.png">
+                </div>
             </div>
-            <div class="content-item">
-                <img src="./image/cute 1.png">
-            </div>
-            <div class="content-item">
-                <img src="./image/images 1.png">
-            </div>
-        </div>
 
         <div class="forms">
             <h3 class="section-title">Please tell my cat how adorable they are</h3>
